@@ -51,7 +51,7 @@ do {
     case "4":
       a = prompt("Masukkan Nilai a : ");
       t = prompt("Masukkan Nilai t : ");
-      console.log(parseFloat(segitiga(a, t)));
+      console.log(parseInt(segitiga(a, t)));
       break;
 
     default:
