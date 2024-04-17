@@ -6,8 +6,8 @@ function persegi_panjang(p1, l1) {
   return p1 * l1;
 }
 
-function lingkaran(v, r) {
-  const lkr = v * r ** 2;
+function lingkaran(r) {
+  const lkr = (22 / 7) * r ** 2;
   return lkr;
 }
 
@@ -44,9 +44,8 @@ do {
       break;
 
     case "3":
-      v = prompt("Masukkan Nilai v : ");
       r = prompt("Masukkan Nilai r : ");
-      console.log(parseInt(lingkaran(v, r)));
+      console.log(parseInt(lingkaran(r)));
       break;
 
     case "4":
