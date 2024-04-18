@@ -1,4 +1,4 @@
-function kubus(s1, s2, s3) {
+/*function kubus(s1, s2, s3) {
   const kbs = s1 * s2 * s3;
   return kbs;
 }
@@ -76,4 +76,4 @@ do {
   lanjut_bosQ = prompt("Apakah anda ingin lanjut? (Y/T)");
 } while (lanjut_bosQ === "Y" || lanjut_bosQ === "y");
 
-console.log("Program Selesai");
+console.log("Program Selesai");*/
