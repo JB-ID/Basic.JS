@@ -7,8 +7,8 @@ function Balok(p, l, t) {
   return p * l * t;
 }
 
-function tabung(r, t) {
-  const tbg = (22 / 7) * r ** 2 * t;
+function tabung(r, t1) {
+  const tbg = (22 / 7) * r ** 2 * t1;
   return tbg;
 }
 
@@ -17,8 +17,8 @@ function bola(r1) {
   return b;
 }
 
-function kerucut(r2, t1) {
-  const krct = (1 / 3) * (22 / 7) * r2 ** 2 * t1;
+function kerucut(r2, t2) {
+  const krct = (1 / 3) * (22 / 7) * r2 ** 2 * t2;
   return krct;
 }
 
@@ -54,8 +54,8 @@ do {
 
     case "3":
       r = prompt("Masukkan Jari-jari tabung");
-      t = prompt("Masukkan Tinggi");
-      console.log("Volume tabung tersebut adalah " + tabung(r, t));
+      t1 = prompt("Masukkan Tinggi");
+      console.log("Volume tabung tersebut adalah " + tabung(r, t1));
       break;
 
     case "4":
@@ -65,8 +65,8 @@ do {
 
     case "5":
       r2 = prompt("Masukkan jari-jari kerucut");
-      t1 = prompt("Masukkan tinggi kerucut");
-      console.log("Volume kerucut tersebut adalah " + kerucut(r2, t1));
+      t2 = prompt("Masukkan tinggi kerucut");
+      console.log("Volume kerucut tersebut adalah " + kerucut(r2, t2));
       break;
 
     default:
