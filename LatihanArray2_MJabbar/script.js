@@ -25,8 +25,7 @@ function nilaidanindex(nilaiAry) {
       "\n" +
       "==================================="
   );
-  console.log();
-  console.log();
+
   for (let b = 0; b < nilaiAry.length; b++) {
     const nilai = nilaiAry[b];
     const indexNilai = tentukanIndexNilai(nilai);
