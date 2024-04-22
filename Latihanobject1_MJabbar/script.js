@@ -1,4 +1,4 @@
-const stokJual = [
+/*const stokJual = [
   {
     kode_barang: "GL-001",
     nama_produk: "Gulaku",
@@ -347,3 +347,4 @@ console.log(
 );
 
 console.log("==========================================================");
+*/
